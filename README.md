@@ -1,7 +1,7 @@
  # kit-starter-php-docker
  PHP on Docker starter application
 
-## Create docker-machine instance in Linux
+## Create docker-machine instance in Linux:
 1. cd to root directory of the project but different from /home as linux uses it e.g /home/current_user
 ```
 cd /home/rafal
@@ -19,7 +19,7 @@ docker-machine create -d vritualbox kit-starter-php-docker
 eval "$(docker-machine env kit-starter-php-docker)"
 ```
 
-## Create docker-machine instance in Windows
+## Create docker-machine instance in Windows:
 1. Create docker-machine using specifig boot2docker.iso
 ```
 docker-machine create -d virtualbox --virtualbox-boot2docker-url https://github.com/boot2docker/boot2docker/releases/download/v18.09.8/boot2docker.iso kit-starter-php-docker

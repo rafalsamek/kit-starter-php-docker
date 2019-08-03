@@ -32,7 +32,8 @@ eval "$(docker-machine env kit-starter-php-docker)"
  ## Start service in CLI:
  ```
 docker-machine start kit-starter-php-docker
-docker-compose -f /home/rafal/PhpstormProjects/kit-starter-php-docker/docker-compose.yml up -d --build ```
+docker-compose -f /home/rafal/PhpstormProjects/kit-starter-php-docker/docker-compose.yml up -d --build
+```
  
  ## Check the docker-machine ip and the project in your Browser:
  ```

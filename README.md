@@ -35,7 +35,7 @@ docker-machine start kit-starter-php-docker
 docker-compose -f /home/rafal/PhpstormProjects/kit-starter-php-docker/docker-compose.yml up -d --build
 ```
  
- ## Check the docker-machine IP and the project in your Browser:
+ ## Check the docker-machine IP and run the project in Browser:
  ```
  docker-machine ls
  ```

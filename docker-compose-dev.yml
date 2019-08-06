@@ -10,6 +10,7 @@ services:
       context: .
       dockerfile: .docker/php-apache/Dockerfile
     volumes:
-      - ./app:/var/www/html
-      - ./.docker/php-apache/apache/000-default.conf:/etc/apache2/sites-available/000-default.conf
-      - ./.docker/php-apache/php/php.ini:/usr/local/etc/php/conf.d/php.ini
+      - docker-app-sync:/var/www/html
+volumes:
+  docker-app-sync:
+    external: true

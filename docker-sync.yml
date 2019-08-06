@@ -1,0 +1,12 @@
+options:
+  compose-file-path: './docker-compose.yml'
+  compose-dev-file-path: './docker-compose-dev.yml'
+  max-attempt: 30
+  verbose: false
+
+version: '2'
+syncs:
+  docker-app-sync:
+    src: './app'
+    sync_strategy: 'unison'
+    sync_args: ['-perms=0'] #required for two way sync ie generators, etc

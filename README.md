@@ -12,7 +12,7 @@ export VIRTUALBOX_SHARE_FOLDER="$PWD:$PWD"
 ```
 3. Create docker-machine
 ```
-docker-machine create -d vritualbox kit-starter-php-docker
+docker-machine create -d virtualbox kit-starter-php-docker
 ```
 4.
 ```

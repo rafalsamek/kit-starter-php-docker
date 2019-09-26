@@ -8,5 +8,11 @@
 
 //echo 'upload_max_filesize = ' . ini_get("upload_max_filesize"). "\n";
 
-echo 'Hello World!';
 
+$myArray = [1=>[22,33], 2=>[1,2]];
+
+var_dump($myArray);
+
+$var = 'World!';
+
+echo 'Hello ' . $var;
